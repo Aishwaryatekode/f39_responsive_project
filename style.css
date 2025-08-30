@@ -19,7 +19,7 @@ html, body {
 body {
     font-family: "poppins", Arial, Helvetica, sans-serif;
     background-color: #f8f9fa;
-    min-height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
@@ -27,6 +27,12 @@ body {
     padding: 0;
      /* push content below fixed navbar */
 }
+
+main, section, header, footer{
+  margin: 0;
+  padding: 0;
+}
+
 
 main {
     flex: 1;
@@ -203,8 +209,10 @@ section{
   color: white;
   position: relative;
   z-index: 1;
-  padding-top: 120px;
+  padding-top: 70px;
   overflow: hidden; /* stops overlay pushing */
+  margin: 0;
+  padding: 0;
 }
 
 /* Dark overlay */
@@ -218,8 +226,6 @@ section{
   background: rgba(0,0,0,0.5);
   z-index: -1;
 }
-
-
 /* Headings */
 .homepage h1 {
   font-size: 2.8rem;
@@ -236,9 +242,15 @@ section{
   color: white;
   margin: 0 0 15px 0;
 }
+.home-buttons{
+   display: flex;
+    gap: 15px;
+   justify-content: center;
+   margin-top: 20px;
+}
 
-/* Button */
 .btn {
+  
   display: inline-block;
   margin-top: 15px;
   padding: 12px 20px;
@@ -255,6 +267,11 @@ section{
   background-color: #218838;
 }
 
+header, footer{
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
 
 /* BANNER */
 .about-banner {
