@@ -133,6 +133,10 @@ p{
     color: #fff;
 }
 
+section{
+  margin-bottom: 50px;
+}
+
 .services{
     background-color: green;
     padding: 50px;
@@ -217,9 +221,11 @@ p{
 
 /* Headings */
 .homepage h1 {
-  font-size: 3em;
-  margin-bottom: 10px;
-  text-shadow: 2px 2px 5px black;
+  font-size: 2.8rem;
+  color: #ffffff;
+
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  font-weight: bold;
 }
 
 /* Paragraph */
@@ -231,18 +237,21 @@ p{
 }
 
 /* Button */
-.homepage .btn {
-  padding: 12px 24px;
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
   background-color: #27ae60;
-  color: black;
+  color: white;
+  text-decoration: none;
   font-weight: bold;
   border-radius: 6px;
-  text-shadow: 1px 1px 3px black;
-  transition: background 0.3s ease-in-out;
+  
+  transition: 0.3s ;
 }
 
 .homepage .btn:hover {
-  background-color: #219150;
+  background-color: #218838;
 }
 /* BANNER */
 .about-banner {
@@ -253,6 +262,7 @@ p{
   align-items: center;
   color: white;
   text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+  text-decoration: none;
 }
 
 .about-banner h1 {
@@ -264,6 +274,7 @@ p{
   padding: 40px 20px;
   background: #f9f9f9;
   text-align: center;
+  text-decoration: none;
 }
 
 .about-content {
@@ -345,14 +356,14 @@ form button {
 
 /* FOOTER */
 footer {
-  background-color: #0a8754;
-  color: white;
+  background-color: #0222;
+  color: #fff;
   text-align: center;
   padding: 0;
   
   font-size: 0.9rem;
   position: fixed;
-
+  margin-top: 30px;
   bottom: 0;
   left: 0;
   width: 100%;
