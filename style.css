@@ -49,7 +49,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    height: 80px;
+    height: 70px;
     width: 100%;
     z-index: 1000;
     justify-content: space-between;
@@ -146,7 +146,8 @@ section{
     flex-direction: column;
     align-items: center;
     padding: 40px 20px;
-    padding-top: 80px;
+    padding-top: 60px;
+    margin-top: 100px;
 }
 
 .services h2{
@@ -253,6 +254,8 @@ section{
 .homepage .btn:hover {
   background-color: #218838;
 }
+
+
 /* BANNER */
 .about-banner {
   background: url('abtbg2.jpg') center/cover no-repeat;
