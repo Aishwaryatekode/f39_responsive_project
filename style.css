@@ -27,6 +27,7 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    margin-bottom: 20px;
      /* push content below fixed navbar */
 }
 
@@ -305,6 +306,59 @@ header, footer{
   padding: 0;
   height: auto;
 }
+.why-choose {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f9f9f9; /* light background */
+}
+
+.why-choose h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.why-choose-us ul{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.why-choose-us li{
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; /* so it looks good on mobile */
+}
+
+.feature {
+  background: white;
+  padding: 20px;
+  width: 200px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature span {
+  font-size: 30px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #333;
+}
 
 /* BANNER */
 .about-banner {
@@ -360,7 +414,7 @@ header, footer{
   align-items: flex-start;
   gap: 20px;
   padding: 20px;
-  margin: 20px;
+  margin: 30px;
   padding-top: 40px;
 }
 
@@ -425,11 +479,11 @@ footer {
   background-color: #5c5656;
   color: #fff;
   text-align: center;
-  padding: 0;
+  padding: 10px;
   
   font-size: 0.9rem;
   
-  margin-top: 0;
+  margin-top: auto;
   
   left: 0;
   width: 100%;
